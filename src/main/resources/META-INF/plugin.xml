@@ -2,11 +2,11 @@
 <idea-plugin>
     <id>org.jetbrains.plugins.toolwindowexample</id>
     <name>Tool Window Text Area Example</name>
-    <vendor>JetBrains</vendor>
+    <vendor>nadia-tarashkevich</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.nadiatarashkevich.toolwindowexample.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
     </extensions>
 </idea-plugin>
