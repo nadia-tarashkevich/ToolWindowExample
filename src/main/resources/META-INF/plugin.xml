@@ -1,15 +1,12 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<!-- Minimal Plugin Configuration File for a Tool Window with a Text Area -->
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
-    <name>IntelliJ Platform Plugin Template</name>
+    <id>org.jetbrains.plugins.toolwindowexample</id>
+    <name>Tool Window Text Area Example</name>
     <vendor>JetBrains</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="org.jetbrains.plugins.template.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>
